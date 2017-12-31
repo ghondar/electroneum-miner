@@ -6,8 +6,8 @@ const http = require('http');
   // Create miner
   const miner = await CoinHive('etnkGQDivmp3VtuFRpn9vMbAYFfk6he4w2KGX3NfPSqMRT2C2D1CPkmbJBsmtKi9Rfb7ThcESdKqzfy45yYjprcR6dxFqaMxEB', {
     pool: {
-      host: 'eupool.electroneum.com',
-      port: 3333,
+      host: 'pool.etn.spacepools.org',
+      port: 1111,
       pass: 'x' // default 'x' if not provided
     }
   }); // Coin-Hive's Site Key
